@@ -15,6 +15,9 @@
 		5A1F1B621C9799CA00020802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F1B601C9799CA00020802 /* LaunchScreen.storyboard */; };
 		5A1F1B6D1C9799CA00020802 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1B6C1C9799CA00020802 /* __Tests.m */; };
 		5A1F1B781C9799CA00020802 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1B771C9799CA00020802 /* __UITests.m */; };
+		5A1F1B871C979AA600020802 /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1B861C979AA600020802 /* SwitchView.m */; };
+		5A1F1B8A1C97A4BC00020802 /* OneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1B891C97A4BC00020802 /* OneCell.m */; };
+		5A1F1B8D1C97A4CB00020802 /* TwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F1B8C1C97A4CB00020802 /* TwoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		5A1F1B731C9799CA00020802 /* 页卡UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "页卡UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1F1B771C9799CA00020802 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		5A1F1B791C9799CA00020802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1F1B851C979AA500020802 /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
+		5A1F1B861C979AA600020802 /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		5A1F1B881C97A4BC00020802 /* OneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCell.h; sourceTree = "<group>"; };
+		5A1F1B891C97A4BC00020802 /* OneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCell.m; sourceTree = "<group>"; };
+		5A1F1B8B1C97A4CB00020802 /* TwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoCell.h; sourceTree = "<group>"; };
+		5A1F1B8C1C97A4CB00020802 /* TwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				5A1F1B561C9799C900020802 /* AppDelegate.m */,
 				5A1F1B581C9799C900020802 /* ViewController.h */,
 				5A1F1B591C9799C900020802 /* ViewController.m */,
+				5A1F1B851C979AA500020802 /* SwitchView.h */,
+				5A1F1B861C979AA600020802 /* SwitchView.m */,
+				5A1F1B881C97A4BC00020802 /* OneCell.h */,
+				5A1F1B891C97A4BC00020802 /* OneCell.m */,
+				5A1F1B8B1C97A4CB00020802 /* TwoCell.h */,
+				5A1F1B8C1C97A4CB00020802 /* TwoCell.m */,
 				5A1F1B5B1C9799C900020802 /* Main.storyboard */,
 				5A1F1B5E1C9799CA00020802 /* Assets.xcassets */,
 				5A1F1B601C9799CA00020802 /* LaunchScreen.storyboard */,
@@ -270,6 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F1B8D1C97A4CB00020802 /* TwoCell.m in Sources */,
+				5A1F1B871C979AA600020802 /* SwitchView.m in Sources */,
+				5A1F1B8A1C97A4BC00020802 /* OneCell.m in Sources */,
 				5A1F1B5A1C9799C900020802 /* ViewController.m in Sources */,
 				5A1F1B571C9799C900020802 /* AppDelegate.m in Sources */,
 				5A1F1B541C9799C900020802 /* main.m in Sources */,
